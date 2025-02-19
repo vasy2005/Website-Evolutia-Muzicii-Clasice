@@ -1,0 +1,166 @@
+/* Stilul normal */
+html
+{
+	scroll-behavior: smooth;
+}
+
+body
+{
+	background-color: #141414;
+	transition: background-color .5s;
+	-ms-overflow-style: none; /* disable scrollbar */
+	scrollbar-width: none;
+	overflow-y: scroll; 
+}
+
+body::-webkit-scrollbar /* disable scrollbar */
+{ 
+    display: none;
+}
+
+p, ul, ol
+{
+	color: #f6f0ed;
+	font-family: "Times New Roman", Times, serif;
+	text-align: justify;
+	margin-left: 50px;
+	margin-right: 20px;
+	font-size: 20px;
+}
+
+h1, h2, h3
+{
+	color: #e637bf;
+	margin-left: 30px;
+	text-align: justify;
+}
+
+
+/*Stilul pentru prima pagina*/
+#perioade
+{
+	font-family: "Lucida Handwriting", "Brush Script MT", "Brush Script Std", cursive;
+	font-size: 40px;
+}
+
+#title
+{
+	text-align: center;
+	margin-left: 0px;
+	margin-right: 0px;
+	color: #ec058e;
+}
+
+/* Stil pentru imagini*/
+figure
+{
+  border: 1px #cccccc solid;
+  padding: 4px;
+  margin: 10px;
+  display: inline-block;
+  position: relative;
+  float: right; 
+}
+
+figcaption
+{
+  background-color: black;
+  color: white;
+  font-style: italic;
+  padding: 2px;
+  text-align: center;
+}
+
+/* Stil pentru videouri*/
+iframe
+{
+	margin-left: 50px;
+}
+
+/* Stil pentru link-uri normale*/
+a:link
+{
+	color: #6f8ab7;
+	text-decoration: none;
+}
+a:visited
+{
+	color: #7a8590;
+}
+a:hover
+{
+	text-decoration: underline;
+}
+a:active
+{
+	color: #e85d75;
+}
+
+/* Stil pentru meniu */
+#content
+{
+	transition: 0.3s;
+}
+
+.menu
+{
+	height: 100%;
+	width: 0px;
+	position: fixed;
+	z-index: 1;
+	top: 0;
+	left: 0;
+	background: linear-gradient(to right, rgba(16, 20, 25, 1) 93%, rgba(16, 20, 25, 0));
+	overflow-x: hidden;
+	padding-top: 30px;
+	transition: 0.5s;
+}
+
+.menu a
+{
+	padding: 8px 8px 8px 32px;
+	text-decoration: none;
+	font-size: 25px;
+	color: #7a8590;
+	display: block;
+	transition: 0.3s;
+}
+
+.menu a:hover
+{
+  color: #f1f1f1;
+}
+
+@media screen and (max-height: 450px) {
+	.sidenav 
+	{
+		padding-top: 15px;
+	}
+	.sidenav a 
+	{
+		font-size: 18px;
+	}
+}
+
+/*Stil pentru butoane diverse*/
+#butonMeniu
+{
+	width: 30px;
+	height: auto;
+	position: absolute;
+	left: 0;
+	top: 0;
+	padding-top: 25px;
+	padding-left: 15px;
+}
+
+#buttonUp
+{
+	position: fixed;
+	bottom: 0;
+	right: 0;
+	width: 25px;
+	height: 35px;
+	padding-right: 25px;
+	padding-bottom: 10px;
+}
