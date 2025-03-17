@@ -1,3 +1,3 @@
-Proiect realizat în liceu despre Evoluția Muzicii Clasice
+Highschool project about the Evolution of Classical Music throughout history.
 
-Folosește HTML, CSS, JavaScript.
+Languages used: HTML, CSS, Javascript
